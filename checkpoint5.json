@@ -1,0 +1,72 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "8876c294",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "14\n"
+     ]
+    }
+   ],
+   "source": [
+    "def max_of_two( x, y ):\n",
+    "    if x > y:\n",
+    "        return x\n",
+    "    return y\n",
+    "def max_of_three( x, y, z ):\n",
+    "    return max_of_two( x, max_of_two( y, z ) )\n",
+    "print(max_of_three(7, 14, -8))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "083d19dd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "lst = []\n",
+    "num = int(input('3: '))\n",
+    "for n in range(num):\n",
+    "    numbers = int(input('1,2,3 '))\n",
+    "    lst.append(numbers)\n",
+    "print(\"Sum of elements in given list is :\", sum(lst))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f85b40f3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
